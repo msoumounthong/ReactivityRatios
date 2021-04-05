@@ -13,10 +13,10 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <!--M1/f-->
-        <TextBox Name="M1Vals" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,10,0,0" Text="Enter M1 Values Seperated by ," TextWrapping="Wrap" VerticalAlignment="Top" Height="144" Width="385" Padding="10" UseLayoutRounding="False" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+        <TextBox Name="M1Vals" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,10,0,0" Text="Enter f1 Values Seperated by ," TextWrapping="Wrap" VerticalAlignment="Top" Height="144" Width="385" Padding="10" UseLayoutRounding="False" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
 
         <!--M2/f-->
-        <TextBox Name="M2Vals" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,164,0,0" Text="Enter M2 Values Seperated by ," TextWrapping="Wrap" VerticalAlignment="Top" Height="144" Width="385" Padding="10" UseLayoutRounding="False" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+        <TextBox Name="M2Vals" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,164,0,0" Text="Enter F1 Values Seperated by ," TextWrapping="Wrap" VerticalAlignment="Top" Height="144" Width="385" Padding="10" UseLayoutRounding="False" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
 
 
         <Button Name="btnCalculate" Content="Calculate" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,313,0,0" VerticalAlignment="Top" Height="36" Width="385" Click="Button_Click"/>
